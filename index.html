@@ -4,42 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Power</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="fonts.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="nav">
-        <div class="nav__logo">
-          <a href="/">
-            <img src="/img/apple.svg" alt="Power" />
-          </a>
-        </div>
-        <ul class="nav__ul">
-          <li class="nav__li"><a class="nav__a" href="/">Features</a></li>
-          <li class="nav__li"><a class="nav__a" href="/">Partners</a></li>
-          <li class="nav__li"><a class="nav__a" href="/">Stories</a></li>
-        </ul>
-        <div class="nav__btn">
-          <a class="btn" href="/">Download for free</a>
-        </div>
-      </nav>
-      <main class="main">
-        <h1 class="main__title">The Power of Simplicity</h1>
-        <p class="main__desc">
-          Instead of spending time searching for the right app, our AI will
-          bring the right app to you.
-        </p>
-        <a href="/" class="main__btn">Learn</a>
-        <div class="loading">
-          <img src="/img/circle.svg" alt="circle" />
-          <img src="/img/circle.svg" alt="circle" />
-          <img src="/img/circle_active.svg" alt="circle_active" />
-          <img src="/img/circle.svg" alt="circle" />
-          <img src="/img/circle.svg" alt="circle" />
-        </div>
-      </main>
+    <div class="wrapper">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__logo">
+            <a href="/">
+              <img class="rockstar" src="/img/rockstars.svg" alt="Rockstar" />
+            </a>
+          </div>
+          <input id="menuCheckbox" type="checkbox" />
+          <ul class="nav__ul">
+            <li class="nav__li"><a class="nav__a" href="/">Форум</a></li>
+            <li class="nav__li"><a class="nav__a" href="/">Донат</a></li>
+            <li class="nav__li">
+              <a class="nav__a" href="/">Ігровий магазин</a>
+            </li>
+          </ul>
+          <div class="nav__btn">
+            <a class="btn" href="/">
+              <span class="btn__text">Скачати ГТА</span>
+              <span class="material-icons"> file_download </span>
+            </a>
+          </div>
+          <label for="menuCheckbox" class="menu-burger">
+            <span class="material-icons icon-menu"> menu </span>
+          </label>
+        </nav>
+        <main class="main">
+          <h1 class="main__title">GTA Ukraine RP</h1>
+          <p class="main__desc">
+            UKRAINE GTA - це реалістична онлайн гра про нашу країну, в якій
+            відтворена вся краса наших міст, справжніх авто, де ти зможеш
+            попрацювати на реально крутих роботах. Запрошуємо тебе відчути цю
+            теплу атмосферу української гри та знайти серед українських гравців
+            справжніх друзів!
+          </p>
+          <a href="/" class="main__btn">Почати гру</a>
+          <div class="loading">
+            <img src="/img/circle.svg" alt="circle" />
+            <img src="/img/circle.svg" alt="circle" />
+            <img src="/img/circle_active.svg" alt="circle_active" />
+            <img src="/img/circle.svg" alt="circle" />
+            <img src="/img/circle.svg" alt="circle" />
+          </div>
+        </main>
+      </div>
     </div>
   </body>
 </html>
